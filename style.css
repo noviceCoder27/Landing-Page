@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    min-height: 100vh; /* Otherwise the footer will not be placed at the end of the screen, as the body height will be the total height that the content occupies */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: #1f2937;
+}
+
+.header p {
+    margin:0;
+    padding: 8px 0;
+    font-size: 24px;
+    margin-right: 50px;
+    color: #f9faf8;
+    font-weight: bold; 
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    padding: 12px;
+}
+/*Since you can't change text decoration in visited links*/
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:visited {
+    color: #e5e7eb;
+}
+
+.main-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 50px;
+}
+
+.website {
+    width: 300px;
+    margin-right: 50px;
+}
+
+.website .main-text {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.website .normal-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 8px;
+}
+
+.placeholder {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+.placeholder p {
+    color: #f9faf8;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 10px;
+    padding: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 8px;
+    width: fit-content;
+}
+
+.box {
+    border-radius: 8px;
+    width: 60px;
+    height: 70px;
+    border: 3px solid #3882f6;
+}
+
+.text {
+    width: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text p {
+    margin: 0;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 80px;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+figcaption {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-box {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 700px;
+    margin: 70px;
+    padding: 32px;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+ 
+.sign-box .bold-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign-box .normal-text {
+    font-size: 18px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+}
+
+.pop-up {
+    border: 1px solid #f9faf8;
+}
+
+.content button {
+    height: 40px;
+}
+
+
