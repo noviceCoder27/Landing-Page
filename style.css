@@ -29,11 +29,12 @@ body {
 a {
     text-decoration: none;
     font-size: 18px;
-}
-
-a:visited {
     color: #e5e7eb;
 }
+
+/* a:visited {
+    
+} */
 
 .main-body {
     flex: 1;
